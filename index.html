@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 40px;
+            overflow: hidden;
+            border: 1px solid rebeccapurple;
+        }
+        .box>ul{
+            margin: 0;
+            padding: 0;
+        }
+        .box>ul>li{
+            list-style-type: none;
+            width: 300px;
+            height: 40px;
+            line-height: 40px;
+        }
+        .count{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul id="box">
+            <li>158****546已购买1个月</li>
+            <li>158****546已购买2个月</li>
+            <li>158****546已购买3个月</li>
+            <li>158****546已购买4个月</li>
+            <li>158****546已购买5个月</li>
+            <li>158****546已购买1个月</li>
+        </ul>
+    </div>
+    <script src="./slider2.js"></script>
+    <script>
+        window.onload = function () {
+            sliderBox();
+        }
+    </script>
+</body>
+</html>
